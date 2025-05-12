@@ -1,18 +1,34 @@
-## Getting Started
+# 🏨 Hotel Management System (Java Console App)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+📍 **A Java console application for hotel administrators to manage rooms, members, and reservations.**
 
-## Folder Structure
+![Demo Screenshot](image/readme/fig1.png)
 
-The workspace contains two folders by default, where:
+---
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## **🔍 Overview**
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+A command-line program designed for hotel staff to:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Track room availability and pricing.
+- Manage member registrations and reservations.
+- Analyze yearly revenue and conduct promotional lucky draws.
 
-## Dependency Management
+Built with **Java** for a lightweight, terminal-based workflow.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## **✨ Key Features**
+
+- **Room Management**: View/update room prices (Premier, Deluxe, Family tiers).
+- **Member Operations**: Add new members (Basic/Silver/Gold tiers) with auto-generated IDs.
+- **Reservation Control**: Cancel bookings (non-refundable) via member ID, room number, and date.
+- **Revenue Analysis**: Calculate yearly earnings based on departure dates.
+- **Lucky Draw**: Randomly select a Silver/Gold tier member for promotions.
+
+---
+
+## **🛠️ Tech Stack**
+
+- **Language**: Java
+- **Tools**: Eclipse
